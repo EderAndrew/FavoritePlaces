@@ -3,7 +3,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Colors } from "../../constants/colors";
 
 type Props = {
-    onPress: () => void,
+    onPress?: () => void,
     icon: any,
     children: React.ReactNode
 }
